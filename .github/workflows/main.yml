@@ -1,3 +1,4 @@
+on: push
 jobs:
   build:
     name: Hello world action
@@ -7,3 +8,4 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Mona"
+        
